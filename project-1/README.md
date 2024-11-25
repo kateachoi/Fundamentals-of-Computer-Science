@@ -10,4 +10,26 @@ We want to simulate a shopping experience, where all the input comes exclusively
 2. Create a method called **setupStore** that returns an array of Items that can be found in the store.
 
 3. Create a method called **createCart**. This method will use ArrayList to create a cart based on the items available in the store. Within this function you should also:
-    (a) **Read** a
+   
+    (a) **Read** a token n from the command line\
+    (b) **Check** for exceptions and bad input\
+    (c) **Return** an ArrayList constaining the items in the cart
+
+4. Create a method called **printReceptInOrder** that prints out:
+
+    (a) The List of items with their prices in order\
+    (b) Subtotal\
+    (c) Sales Tax (5%)\
+    (d) Total
+
+5. Create a final method called **emptyCartReverseOrder** that:
+   
+    (a) Prints the last item on the list\
+    (b) Removes the item from the list\
+    (c) Repeat steps (a) and (b) until the cart is empty.
+
+6. Out of all the Big-Oh running times you have seen so far, what do you
+think are the running times for:
+
+    (a) **printReceiptInOrder**\
+    (b) **emptyCartReverseOrder**
