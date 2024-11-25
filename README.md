@@ -1,5 +1,5 @@
 # Fundamentals-of-Computer-Science
-Projects from Spring 2024 for Fundamentals of Computer Science (CSC112) course in Java
+Projects from Spring 2024 for Fundamentals of Computer Science (CSC112) course in Java.
 
 # Course Topics
 - Introduction to Java, Variables/Assignments, Branches, Loops, Algorithmic Analysis
