@@ -1,3 +1,3 @@
 # Fundamentals-of-Computer-Science
-Projects from Fall 2023 for Introduction to Computer Science (CSC11) course in Java
+Projects from Spring 2024 for Fundamentals of Computer Science (CSC112) course in Java
 
