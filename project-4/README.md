@@ -11,7 +11,25 @@ In this lab, you will have to find your own data set from an online repository s
 
 2. Create a well written class to store each record from your dataset. The members of this class must include all attributes in your dataset. This class must contain the following methods beside the default, parametrized, and copy constructors:
 
-'''java
-    @Override
+    @Override\
     String toString();
-'''
+
+The method toString() returns a String version of the information stored in the class.
+
+3. Create one arrayList to store the objects of your class.
+
+4. Read each row in your dataset and store it in an object of your customized class type and then add it to the arrayList.
+
+5. Implement comparator interface in another customized class to compare 2 objects based on a numerical attribute.
+
+6. Using your developed comparator class, create a method called Sort as follows:
+- The parameters to this method includes the arrayList of your dataset and the size n.
+- The sorting algorithm you will implement works by repeatedly stepping through the list, comparing adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+
+7. Write a Swap method and use it in your sort method.
+
+8. Print out the content of the arrayList after sorting into a text file called "sortedDataset.txt" using toString method.
+
+9. Measure the time (use System.currentTimeMillis()) that it takes to run Sort for different values of N (try large numbers), the number of entries in your list being sorted.
+
+10. Using a graphing software, plot the execution time vs. N.
